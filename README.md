@@ -10,3 +10,5 @@ python3 train.py files plagiat1 plagiat2 --model model.pkl
 ```
 python3 compare.py input.txt scores.txt --model model.pkl
 ```
+
+На данный момент утилита не доработана. А именно модель распознает некоторые файлы как плагиат, которые на самом деле не являются ими.
